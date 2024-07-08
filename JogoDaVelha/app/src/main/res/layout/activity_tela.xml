@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TelaActivity"
+    android:background="@drawable/velha">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jogo da Velha"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione o modo de jogo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:padding="16dp"/>
+
+
+
+            <Button
+                android:id="@+id/buttonPlayerVsPlayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jogador vs Jogador local"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/buttonPlayerVsMachine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jogador vs Máquina"
+                android:gravity="center" />
+
+    </LinearLayout>
+
+</LinearLayout>
